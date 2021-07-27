@@ -9,6 +9,10 @@
     <%= f.label :details %>
     <%= f.text_field :details %>
   </p>
+  <p>
+    <%= f.label(:completed, "Task Completed") %>
+    <%= f.check_box(:completed) %>
+  </p>
   <%= f.submit %>
 <% end %>
 
